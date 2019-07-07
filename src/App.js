@@ -12,7 +12,7 @@ function App() {
   let [score, setScore] = useState(1);
   let [isHistoricalVisible, setHistoricalVisible] = useState(false);
   let [riskAssets, setRiskAssets] = useState(updateRiskAssets([10, 20, 20, 40, 5, 5]));
-  let [chartData, setChartData] = useState(getChartData());
+  let [chartData] = useState(getChartData()); 
   const maxScore = 11;
 
   function toggleHistorical() {

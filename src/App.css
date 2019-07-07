@@ -204,9 +204,9 @@
 }
 
 .chart-legend-li:nth-child(1) .chart-legend-icon {
-  color: green;
+  color: #008000;
 }
 
 .chart-legend-li:nth-child(2) .chart-legend-icon {
-  color: rgb(250, 209, 49);
+  color: #fad131;
 }

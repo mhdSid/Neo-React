@@ -15,11 +15,11 @@ function renderLegend (props) {
         <ul className='chart-legend-ul flex flex-row align-center justify-center'>
             <li className='chart-legend-li flex flex-column'>
                 <span>SMARTWEALTH</span>
-                <span class='chart-legend-icon'>$--</span>
+                <span className='chart-legend-icon'>$--</span>
             </li>
             <li className='chart-legend-li flex flex-column'>
                 <span>BENCHMARK</span>
-                <span class='chart-legend-icon'>$--</span>
+                <span className='chart-legend-icon'>$--</span>
             </li>
         {/* {
             payload.map((entry, index) => (
